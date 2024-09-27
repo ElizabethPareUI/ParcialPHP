@@ -1,0 +1,305 @@
+
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 30px;
+    display: flex;
+}
+.navbar{
+    justify-self: end;
+    font-family: 'nunito';
+    font-weight: bold;
+    color: #ffffff ;
+    display: flex;
+    flex-direction: row;
+    background-color: #C69C6D;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 35px;
+}
+
+.navbar .btn{
+    width: fit-content;
+}
+
+.btn{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    border: #655542;
+}
+
+.cart{
+    color: #ffffff;
+    font-size: 25px;
+    padding: 15px;
+    padding-left: 0px;
+}
+
+.btn-footer{
+    background-color: #bababa;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+footer{
+    color: #ffffff;
+    background-color: #C69C6D;
+    margin-bottom: 0px;
+}
+.error{
+    font-family:"Shadows Into Light", cursive; 
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.txt-error h1{
+    font-size: 10rem;
+}
+.txt-error{
+    font-size: 2rem;
+}
+
+.error button{
+    border-radius: 15px;
+    background:none;
+    padding: 5px;
+}
+.error button:hover{
+background-color: black;
+color: azure;
+}
+
+.catalogue {
+    padding: 20px; 
+}
+
+.card-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card-img-top {
+    width: 100%; 
+    height: 150px; 
+    object-position: center;
+}
+
+
+.card {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card-img-top {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    object-position: center;
+}
+
+.card-title{
+    font-family:"Playfair Display",sans-serif ;
+    font-weight: bold;
+}
+.card-products .btn{
+    background-color: #C69C6D;
+    border-radius: 20px;
+    
+}
+
+.details-main {
+    display: flex;
+    gap: 20px; 
+    align-items: flex-start; 
+    margin-left: 80px;
+}
+
+
+.container-img {
+    flex: 1;
+    max-width: 40%; 
+    margin: 20px;
+}
+
+.container-img img {
+    width: 100%;
+    height: auto; 
+    object-fit: contain;
+}
+
+
+.container-details {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.container-details h4{
+    color: #bababa;
+    margin-top: 15px;
+}
+
+
+.details-item-content .btn {
+    background-color: #c4a073;
+    color: black;
+    margin-top: 20px; 
+    width: 50px;}
+
+
+.designer-bio {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #C69C6D;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 35px;
+}
+
+
+.designer-bio img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; 
+}
+
+
+.bio-description {
+    flex: 1;
+    color: #ffffff;
+}
+
+.bio-description p {
+    margin-left: 20px;
+}
+
+
+.latest-products {
+    padding: 20px;
+}
+
+.latest-products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.card-products {
+    display: grid;
+    gap: 50px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.container-work-us{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.work-with-us-form{
+    margin: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-title{
+    font-family:"Playfair Display",sans-serif ;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #c4a073;
+    color: #fff;
+    width: 600px;
+    height: 300px;
+    border-radius: 60px;
+    
+}
+
+.contact-info h2{
+    font-family:"Playfair Display",sans-serif ;
+}
+
+
+.mission, .team, .history {
+    margin-bottom: 30px;
+}
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team-member {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.title-about {
+    text-align: center; 
+    margin-top: 20px;  
+    font-size: 2em;
+    font-family:"Playfair Display",sans-serif ; ;     
+    color: #fcfcfc;  
+    background-color: #c4a073;     
+}
